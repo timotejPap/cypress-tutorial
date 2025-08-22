@@ -15,7 +15,7 @@ describe("Registration", () => {
     cy.get("#customer\\.ssn").type("123-45-6789");
     cy.get("#customer\\.username").type("johndoe");
     cy.get("#customer\\.password").type("Password123");
-    cy.get("#repeatedPassword").type("Password123");
+    cy.get("#repeatedPassword").type("Password123456");
     cy.get(".button").contains("Register").click();
   });
 });
