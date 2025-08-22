@@ -1,0 +1,24 @@
+{
+  "name": "cypressyt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "echo This is preTEST",
+    "posttest": "echo This is postTEST",
+    "test": "echo \"I am TEST",
+    "hello": "echo 'Hello, world!'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^14.2.0",
+    "cypress-downloadfile": "^1.2.4",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8",
+    "mochawesome": "^7.1.3"
+  }
+}
